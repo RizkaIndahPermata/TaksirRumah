@@ -9,7 +9,7 @@
     <style>
         body {
             background: url('{{ asset("images/Bg.png") }}') no-repeat center center/cover;
-            height: 100vh;
+            height: 100vh; 
         }
         .overlay {
             background: rgba(0, 0, 0, 0.5);

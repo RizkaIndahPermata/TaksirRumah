@@ -47,7 +47,7 @@
     </div>
 </div>
 
-<!-- Grafik -->
+<!-- Menampilkan Grafik -->
 <div class="container text-center">
     <h5>Grafik</h5>
     <img src="{{ asset('images/graph-placeholder.png') }}" width="300">

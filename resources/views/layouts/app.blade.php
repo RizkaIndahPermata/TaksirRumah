@@ -13,7 +13,7 @@
         .navbar {
             background: #cfe2ff;
             padding: 15px;
-            position: fixed; /* Header tetap di atas */
+            position: fixed; 
             top: 0;
             left: 0;
             width: 100%;
@@ -36,14 +36,14 @@
             transform: translate(-50%, -50%);
             font-family: 'Holtwood One SC', serif;
             font-weight: bold;
-            font-size: 32px; /* Sesuaikan ukuran teks */
+            font-size: 32px;
             display: inline-block;
             background: linear-gradient(to bottom, white 80%, black 100%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-            white-space: nowrap; /* Hapus jika ingin teks bisa berpindah baris */
+            white-space: nowrap; 
         }
         .hero-section img {
             width: 100%;
@@ -59,11 +59,9 @@
 <!-- Header -->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container d-flex justify-content-between align-items-center">
-        <!-- Nama Brand di Kiri dengan Warna Berbeda -->
         <a class="navbar-brand fw-bold text-primary" href="{{ route('home') }}" style="font-size: 24px;">
             TaksirRumah
         </a>
-        <!-- Logo di Kanan dengan Ukuran Lebih Besar -->
         <a href="{{ route('home') }}">
             <img src="{{ asset('images/logo.png') }}" alt="TaksirRumah Logo" width="70">
         </a>
@@ -71,8 +69,6 @@
 </nav>
 
 
-
-    <!-- Content -->
     <div class="container mt-4">
         @yield('content')
     </div>
@@ -81,15 +77,12 @@
 <footer class="footer">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Logo di Kiri -->
             <div class="col-md-4 text-start">
                 <img src="{{ asset('images/logo.png') }}" alt="TaksirRumah Logo" width="100">
             </div>
-            <!-- Copyright di Tengah -->
             <div class="col-md-4 text-center">
                 <p class="mb-0">Copyright © 2025 TaksirRumah</p>
             </div>
-            <!-- Contact Us di Kanan -->
             <div class="col-md-4 text-end">
                 <p class="fw-bold mb-2">Contact Us</p> 
                 <a href="#"><img src="{{ asset('images/email.png') }}" alt="Email" width="24"></a>
