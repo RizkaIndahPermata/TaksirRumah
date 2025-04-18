@@ -93,12 +93,10 @@
         <div class="container py-4">
             <div class="row align-items-center">
     
-                <!-- Logo (Kiri) -->
                 <div class="col-6 col-md-4 d-flex justify-content-start align-items-center">
                     <img src="{{ asset('images/logo.png') }}" alt="TaksirRumah Logo" width="100">
                 </div>
     
-                <!-- Contact Us (Kanan) -->
                 <div class="col-6 col-md-4 offset-md-4 d-flex flex-column align-items-end text-end">
                     <p class="fw-bold mb-2">Contact Us</p>
                     <div>
@@ -108,9 +106,8 @@
                     </div>
                 </div>
     
-                <!-- Copyright (Selalu di bawah & tengah) -->
                 <div class="col-12 mt-3 d-flex justify-content-center">
-                    <p class="mb-0 text-center">© 2025 TaksirRumah</p>
+                    <p class="mb-0 text-center">Copyright © 2025 TaksirRumah</p>
                 </div>
     
             </div>
