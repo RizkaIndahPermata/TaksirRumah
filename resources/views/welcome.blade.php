@@ -26,7 +26,7 @@
             position: absolute;
             top: 25px; 
             right: 50px;
-            background: white;
+            background: rgb(30, 166, 71);
             color: black;
             padding: 10px 20px;
             font-weight: bold;
