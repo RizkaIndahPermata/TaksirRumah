@@ -21,7 +21,11 @@
                 <h3 class="text-center">Prediksi Harga Rumah</h3>
                 <form>
                     <div class="mb-3">
-                        <label>Luas Rumah (m²)</label>
+                        <label>Luas Tanah (m²)</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label>Luas Bangunan (m²)</label>
                         <input type="number" class="form-control">
                     </div>
                     <div class="mb-3">
@@ -33,11 +37,17 @@
                         <input type="number" class="form-control">
                     </div>
                     <div class="mb-3">
+                        <label>Jumlah Lantai</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="mb-3">
                         <label>Pilih Wilayah</label>
                         <select class="form-control">
                             <option>Jakarta</option>
                             <option>Bandung</option>
+                            <option>Yogyakarta</option>
                             <option>Surabaya</option>
+                            <option>Bali</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Predict Price</button>
