@@ -59,6 +59,10 @@
             object-fit: cover;
         }
 
+        #grafikImages {
+            padding: 0 20px;
+        }
+
         @media (max-width: 768px) {
             .hero-text {
                 font-size: 24px;
